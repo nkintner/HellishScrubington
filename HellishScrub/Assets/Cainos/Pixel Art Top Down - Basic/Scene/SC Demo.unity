@@ -5353,7 +5353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255164140}
   - component: {fileID: 255164141}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38130,7 +38130,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.30139223, g: 0.3032766, b: 0.30817598, a: 1}
+  m_Color: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
   m_Origin: {x: -7, y: -6, z: 0}
   m_Size: {x: 19, y: 19, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}

@@ -21,7 +21,10 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            targetColor.a = 1.0f;
+            if (other.gameObject.CompareTag("Trash"))
+            {
+                Destroy(other.gameObject);
+            }
         }
 
         private void OnTriggerExit2D(Collider2D other)

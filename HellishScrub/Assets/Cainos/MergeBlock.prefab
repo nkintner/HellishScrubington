@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 7044169133284119841}
   - component: {fileID: 3926611047857483018}
   - component: {fileID: 5246709768000854106}
+  - component: {fileID: -4349905330001134705}
   m_Layer: 20
   m_Name: MergeBlock
   m_TagString: Trash
@@ -273,4 +274,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MergedObject: {fileID: 6597752833267658741, guid: 4edcdb01fe843e144b9fd8d6f942cee3,
+    type: 3}
+--- !u!114 &-4349905330001134705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4562423272611015635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e7e0d05bdd73c4094fe68c43d799f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MergedObject: {fileID: 8985073132167801783, guid: 5a5589d102db249c9a5a4a74bc354ecf,
     type: 3}

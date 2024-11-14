@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 44149659502318816}
   - component: {fileID: 5814866275391366673}
   - component: {fileID: 5705059084932697107}
+  - component: {fileID: -7805932316751314943}
   m_Layer: 0
   m_Name: Bix Box
   m_TagString: Untagged
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300034, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
-  m_Color: {r: 0.754717, g: 0.7226771, b: 0.7226771, a: 1}
+  m_Color: {r: 0.8113208, g: 0.7692239, b: 0.7692239, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -158,3 +159,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7475858, y: 0.5954263}
   m_EdgeRadius: 0
+--- !u!114 &-7805932316751314943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014076910752484839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e7e0d05bdd73c4094fe68c43d799f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MergedObject: {fileID: 6504917846887216350, guid: 0646f6fb28b7f4fc18c75f4c83adac1e,
+    type: 3}

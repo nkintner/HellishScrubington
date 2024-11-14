@@ -97,6 +97,8 @@ GameObject:
   - component: {fileID: 8866087314328387805}
   - component: {fileID: 5231715662879539146}
   - component: {fileID: 5059588635328336443}
+  - component: {fileID: -7491483986386336015}
+  - component: {fileID: 2620569295558151886}
   m_Layer: 20
   m_Name: PF Props Crate (2)
   m_TagString: Trash
@@ -258,3 +260,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MergedObject: {fileID: 8985073132167801783, guid: 5a5589d102db249c9a5a4a74bc354ecf,
     type: 3}
+--- !u!114 &-7491483986386336015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6597752833267658741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &2620569295558151886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6597752833267658741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c7adafe9a530d4b1e8c0ef20c1a6f3e6, type: 2}

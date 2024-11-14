@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 7947911505737750450}
   - component: {fileID: 5997224648939805555}
   - component: {fileID: 2440844624711060802}
+  - component: {fileID: -6353617328106091107}
   m_Layer: 20
   m_Name: PF Props Altar
   m_TagString: Untagged
@@ -438,6 +439,18 @@ MonoBehaviour:
   - {fileID: 6868958710751573116}
   - {fileID: 2128395779313173791}
   lerpSpeed: 3
+--- !u!114 &-6353617328106091107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947911505737750455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da57800110fd423681b87299d829e80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7947911505844789836
 GameObject:
   m_ObjectHideFlags: 0

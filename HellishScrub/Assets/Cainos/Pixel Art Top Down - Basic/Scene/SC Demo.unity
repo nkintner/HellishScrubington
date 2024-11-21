@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 21875311}
   - component: {fileID: 21875314}
   - component: {fileID: 21875315}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Broom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37496,6 +37496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: 0.27687967
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628018141983903116, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
+        type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5628018141983903117, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
         type: 3}
